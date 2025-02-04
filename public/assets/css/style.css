@@ -1,3 +1,4 @@
+/* for mobile */
 body {
     background-image: url(../images/top-view-minimal-composition-with-books.jpg);
     background-size: cover;
@@ -92,6 +93,7 @@ p {
     line-height: 1.2;
 }
 
+/* for desktop */
 @media screen and (min-width: 655px) {
     body {
         display: flex;
