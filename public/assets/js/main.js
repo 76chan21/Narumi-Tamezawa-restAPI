@@ -28,6 +28,7 @@ async function searchDefinition() {
             definition.innerHTML = `${data.list[0].definition}`;
         } else {
             word.innerHTML = 'No definition found.';
+            definition.innerHTML = '';
         }
     } catch (error) {
         word.innerHTML = 'Error fetching definition.';
