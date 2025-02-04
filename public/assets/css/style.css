@@ -1,0 +1,124 @@
+body {
+    background-image: url(../images/top-view-minimal-composition-with-books.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 70vh;
+    width: 100vw;
+    justify-content: center;
+    padding-top: 18vh
+}
+
+aside {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: "Cookie", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #304a3b;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #495F41;
+}
+
+#search {
+    border: solid #C1C1C1;
+    background-color: #FFF;
+    color: #304a3b;
+    height: 35px;
+    width: 200px;
+    padding: 0 10px;
+    border-radius: 7px 0 0 7px;
+    margin-right: 0;
+}
+
+#search-btn {
+    margin-left: 0;
+    color: #304a3b;
+    border: solid #C1C1C1;
+    background-color: #C1C1C1;
+    height: 38px;
+    padding: 0 10px;
+    border-radius: 0 7px 7px 0;
+    font-family: "Forum", serif;
+    font-weight: 600;
+    font-style: normal;
+    transition: all 0.3s ease;
+}
+
+#search-btn:hover {
+    background-color: #ABC6A1;
+    border: solid #ABC6A1;
+}
+
+#result {
+    width: 90vw;
+    height: 48%;
+    margin: 20px 0;
+    padding: 15px 0;
+    border-bottom: solid 1px #C1C1C1;
+    border-top: solid 1px #C1C1C1;
+
+    font-family: "Forum", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.2;
+}
+
+@media screen and (min-width: 655px) {
+    body {
+        display: flex;
+        justify-content: center;
+    }
+
+    .wrap {
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+        justify-content: space-around;
+        width: 50vw;
+        height: 60vh;
+        margin-top: 15px;
+    }
+
+    aside {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        width: 50%;
+    }
+
+    #result {
+        width: 46%;
+        height: 90%;
+        border-bottom: solid 1px #C1C1C1;
+        border-top: solid 1px #C1C1C1;
+    }
+}

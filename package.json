@@ -1,0 +1,17 @@
+{
+  "name": "narumitamezawa-restapi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "Narumi Tamezawa",
+  "license": "private",
+  "private": true,
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
